@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'lunchtype';
+  src: url('assets/lunchtype22-regular-webfont.ttf');
+}
+
+body {
+  font-family: 'lunchtype';
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#caption {
+  font-size: 2em;
+  padding: 1vmin;
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#logo {
+  width: 10vmin;
+  min-width: 50px;
+  min-height: 50px;
+  height: 10vmin;
+  position: absolute;
+  top: 2vmin;
+  right: 2vmin;
+  padding: 1vmin;
+  border-style: dotted;
+  border-color: white;
+  border-radius: 1vmin;
+}
+
+#logo:hover {
+  background-color: darkgrey;
+}
+
+footer:hover {
+  color: pink;
+}
+a:hover:after {
+    content: url(assets/oracle.jpg);
+    display: block;
+}
